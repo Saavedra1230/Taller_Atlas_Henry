@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+header{
+    background-image: url('../ASSETS/banner-bk.jpg');
+    height: 80vh;
+    width: 100%;
+    
+}
+.texto{
+    display: flex;
+    color: white;
+    padding-left: 130px;
+    font-size: 80px;
+}
+.logo{
+    padding-left: 130px;
+}
+.text1{
+    color: white;
+
+}
+.Get{
+    color: black;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 50px;
+    width: 100px;
+    height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
