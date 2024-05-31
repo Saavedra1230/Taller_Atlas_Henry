@@ -178,6 +178,7 @@ p{
     font-size: 20px;
     width: 30%;
     padding: 90px 0;
+    
 
 }
 .contenido{
@@ -221,6 +222,12 @@ h2{
 .cont2{
     color: #00ffae;
     /*opacity: ;*/
+    background: transparent;
+}
+
+.contacto2{
+    display: flex;
+    justify-content: center;
 }
 
 .Sub{
@@ -237,4 +244,40 @@ h2{
 
 .registro{
     border-color: #00ffae;
+    background: transparent;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
 }
+
+.footer{
+    background-color: #122242;
+    color: white;
+
+
+}
+
+.footer2{
+    display: flex;
+    gap: 16px;
+    height: 90vh;
+    font-size: 20px;
+    padding: 0 180px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.imgf{
+    border-radius: 30px;
+    
+    
+}
+
+.copyright{
+    display: flex;
+    
+}
+
+
+
