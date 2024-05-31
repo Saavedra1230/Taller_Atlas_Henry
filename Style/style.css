@@ -268,15 +268,34 @@ h2{
 
 }
 
-.imgf{
-    border-radius: 30px;
+.imgfinal{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 25px;
     
     
 }
 
+.imgf{
+    border-radius: 30px;
+}
+
+
 .copyright{
-    display: flex;
+    color: white;
     
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    font-size: 25px;
+    padding: 0 130px;
+    background-color: #122242;
+
 }
 
 
