@@ -204,32 +204,76 @@ p{
     align-items: center;
 }
 .contacto{
+    display: flex;
     background-image: url('../ASSETS/contact-bk.jpg');
     background-size: cover;
-    height: 80vh;
-    padding-left: 30px;
-    padding-top: 100px;
+    padding: 50px;
+
 }
  .cont{
     color: white;
+    font-size: 23px;
 }
 
+.info-contact{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
 h2{
     color: white;
     font-size: 80px;
 }
 
-.cont2{
-    color: #00ffae;
-    /*opacity: ;*/
-    background: transparent;
-}
 
-.contacto2{
+
+
+
+.formulario{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+    color: #00ffae;
+
 }
 
+.for{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 30px;
+    justify-content: space-around;
+
+    
+}
+
+.for input{
+    border-color: #00ffae;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border-radius: 7px;
+}
+
+.for textarea{
+    border-color: #00ffae;
+    background: transparent;
+
+
+}
+
+.for2{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.registro2{
+    border-color: #00ffae;
+    background: transparent;
+    border-radius: 7px;
+
+}
 .Sub{
     background-color: #00ffae;
     color: black;
@@ -240,14 +284,6 @@ h2{
     border: none;
     
 
-}
-
-.registro{
-    border-color: #00ffae;
-    background: transparent;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
 }
 
 .footer{
