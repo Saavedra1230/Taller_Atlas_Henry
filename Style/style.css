@@ -208,6 +208,7 @@ p{
     background-image: url('../ASSETS/contact-bk.jpg');
     background-size: cover;
     padding: 50px;
+    gap: 50px;
 
 }
  .cont{
@@ -215,19 +216,10 @@ p{
     font-size: 23px;
 }
 
-.info-contact{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-}
 h2{
     color: white;
     font-size: 80px;
 }
-
-
-
-
 
 .formulario{
     display: flex;
@@ -255,7 +247,7 @@ h2{
     border-radius: 7px;
 }
 
-.for textarea{
+.for2 textarea{
     border-color: #00ffae;
     background: transparent;
 
@@ -334,5 +326,567 @@ footer {
 
 }
 
+.titulocheck{
+    font-size: 60px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
 
+@media screen and (max-width:921px) {
+
+    .Newway {
+        padding: 100px;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .texto{
+        font-size: 100%;
+    }
+
+    .text1{
+        font-size: 70%;
+    }
+
+    .Get{
+        width: 140px;
+        
+    }
+
+    header {
+        padding: 60px 0;
+    }
+
+    .texto1 {
+        font-size: 20px;
+    }
+
+    .titulos {
+        font-size: 25px;
+    }
+
+    .img2{
+        width: 40%;
+        height: 70%;
+    }
+
+    .medio{
+        width: 100%;
+    }
+    span {
+        font-size: 70px;
+        font-weight: 700;
+    }
+
+    .formulario {
+        margin-top: 0;
+        width: 500px;
+        font-size: 20px;
+    }
+
+    .formulario {
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+
+    .Sub {
+        width: 100%;
+        height: 40px;
+        border-radius: 30px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .contus {
+        font-size: 20px;
+    }
+
+    .pricing {
+        display: flex;
+        width: 100%;
+        padding: 60px 0;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .texto4{
+        height: 100%;
+    }
+
+    .contenido {
+        padding: 50px 0;
+    }
+
+    .contenido2 {
+        text-align: center;
+        font-size: 20px;
+        padding: 50px 0;
+        height: 650px;
+    }
+
+    .Take {
+        padding: 130px 0;
+    }
+
+    .titulocheck {
+        font-size: 40px;
+        padding-top: 60px;
+    }
+
+    .titulo2 {
+        font-size: 40px;
+    }
+
+    .logos {
+        align-items: center;
+        padding: 0 80px;
+    }
+
+    .contacto {
+        padding: 120px 100px;
+        width: 100%;
+        font-size: 15px;
+        gap: 70px;
+    }
+
+
+    .free {
+        height: 40px;
+    }
+
+    footer {
+        font-size: 15px;
+        align-items: center;
+        padding: 0px 50px;
+        height: 60px;
+    }
+
+    .imgf{
+        border-radius: 100px;
+        height: 40px;
+    }
+
+    
+}
+
+@media screen and (max-width:769px) {
+
+
+    .texto {
+        font-size: 120%;
+    }
+
+    .Newway{
+        width: 75%;
+        height: 560px;
+    }
+
+    .text1 {
+        font-size: 15px;
+        width: 100%;
+    }
+    
+    h3{
+        font-size: 20px;
+    }
+
+
+    header {
+        padding: 50px 0;
+    }
+
+    .C {
+        padding: 0 80px;
+    }
+
+    .titulo {
+        font-size: 36px;
+        padding-top: 60px;
+    }
+
+    .take1 {
+        padding: 80px 0px;
+    }
+
+
+    .Take aside {
+        width: 40%;
+    }
+
+    .texto1 {
+        font-size: 18px;
+    }
+
+    .img2 img {
+        width: 70%;
+    }
+
+    .logos {
+        padding: 0 80px;
+        gap: 20px;
+        width: 80%;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .contus {
+        font-size: 40px;
+    }
+
+    .cont {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .contacto {
+        padding: 80px 80px;
+        width: 80%;
+    }
+
+    .info-contact {
+        height: 100%;
+        width: 50%;
+        font-size: 18px;
+    }
+
+    .formulario {
+        margin-top: 0;
+        width: 500px;
+        font-size: 17px;
+    }
+
+    .Sub {
+        height: 35px;
+        font-size: 20px;
+    }
+    footer {
+        font-size: 18px;
+        padding: 0 50px;
+        height: 80px;
+        width: 88%;
+    }
+
+    .Check {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 60px 0;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .tittle {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .Learn {
+        width: 120px;
+        height: 50px;
+        border-radius: 50px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .Free {
+        width: 120px;
+        height: 50px;
+        border-radius: 50px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width:481px) {
+    .Newway {
+        padding: 0 124px;
+    }
+
+    header {
+        padding: 30px;
+    }
+
+    .logo {
+        height: 90px;
+    }
+
+    .Get {
+        width: 150px;
+        height: 40px;
+    }
+
+    .titulocheck {
+        font-size: 26px;
+        padding-top: 40px;
+    }
+
+    .Check{
+        width: 125%;
+    }
+
+    .medio{
+        width: 125%;
+    }
+
+    .img2{
+        width: 50px;
+        height: 100%;
+    }
+
+    .formulario {
+        gap: 100px;
+        padding: 0 120px;
+        height: 0%;
+        font-size: 15px;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .cajas {
+        gap: 10px;
+    }
+
+    .img {
+        width: 100px;
+    }
+
+    .titulos {
+        font-size: 18px;
+    }
+
+    .texto1 {
+        font-size: 15px;
+    }
+
+    .Take {
+        padding: 50px 0px;
+    }
+
+    .titulo2 {
+        font-size: 26px;
+    }
+
+    .texto1 {
+        font-size: 15px;
+    }
+    
+    .Learn {
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+    }
+    
+    .img2 {
+        display: none;
+        width: 222px;
+    }
+
+    .contenido {
+        padding: 50px 40px;
+        height: 100%;
+    }
+
+    .contenido2 {
+        width: 100%;
+        padding: 50px 0;
+    }
+
+    .logos {
+        padding: 0 30px;
+        width: 113%;
+    }
+
+    .logo{
+        width: 14%;
+        height: 40%;
+    }
+
+    .contus {
+        font-size: 50px;
+    }
+
+    .contacto {
+        display: block;
+        width: 110%;
+
+        padding: 50px 40px;
+    }
+
+    .cont {
+        width: 300px;
+        height: 100%;
+        font-size: 15px;
+        display: block;
+        align-items: center;
+    }
+
+    
+    
+    .formulario {
+        width: 100%;
+        display: block;
+    }
+
+    .for {
+        display: block;
+        width: 100%;
+    }
+    
+    .caja {
+        width: 100%;
+    }
+
+    .Sub {
+        height: 35px;
+        width: 140%;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 0 40px;
+        height: 70px;
+        width: 110%;
+    }
+
+    .redes {
+        border-radius: 100px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width:352px) {
+    header {
+        padding: 20px;
+        gap: 60px;
+    }
+
+    .Newway {
+        padding: 20 10px;
+        width: 40%;
+        height: 10%;
+    }
+
+    .texto {
+        font-size: 35px;
+    }
+
+    .text1 {
+        font-size: 14px;
+    }
+
+    .titulo {
+        font-size: 24px;
+        padding-top: 30px;
+        width: 80%;
+    }
+
+    .img{
+        width: 70px;
+    }
+
+    .titulos{
+        font-size: 15px;
+    }
+
+    .cajas{
+        gap: 1px;
+    }
+
+
+    .logos{
+        width: 88%;
+    }
+
+    .logo{
+        height: 50px;
+        width: 37px;
+    }
+
+    .C {
+        gap: 6px;
+        padding: 0 18px;
+    }
+
+    .Take {
+        padding: 40px 0px;
+    }
+
+    .img2 {
+        width: 186px;
+    }
+
+    .texto1 {
+        font-size: 14px;
+        width: 100px;
+    }
+
+    .Learn {
+        width: 130px;
+    }
+
+    .Check {
+        padding: 10px 0;
+        width: 80%;
+    }
+
+    .medio{
+        width: 80%;
+    }
+    
+    .cajas{
+        width: 80%;
+    }
+
+    .contenido2 {
+        height: 500px;
+        width: 100%;
+    }
+
+    .formulario {
+        width: 80%;
+        display: flex;
+        align-items: center;
+    }
+
+    .contacto{
+        width: 80%;
+        
+    }
+
+    .for {
+        width: 280px;
+    }
+
+    .formulario input {
+        width: 280px;
+    }
+
+    .formulario textarea {
+        width: 280px;
+    }
+
+    .Sub {
+        width: 280px;
+    }
+
+    footer {
+        padding: 0 10px;
+        width: 97%;
+    }
+
+    .imgfinal {
+        gap: 5px;
+    }
+
+    .imgf {
+        height: 30px;
+    }
+}
 
